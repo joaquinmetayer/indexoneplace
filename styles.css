@@ -7,9 +7,12 @@
 img{
    width: 100%;
 }
+img:hover{
+    filter: grayscale(100);
+}
 .box-container{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     background-color: #000;
 }
 .text{
