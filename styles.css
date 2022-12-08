@@ -33,11 +33,16 @@ h3{
 }
 @media (max-width: 1000px) {
     .box-container{
+        grid-template-columns: auto auto auto auto;
+    }
+}
+@media (max-width: 650px) {
+    .box-container{
         grid-template-columns: auto auto auto;
     }
 }
 @media (max-width: 500px) {
     .box-container{
-        grid-template-columns: auto;
+        grid-template-columns: auto auto;
     }
 }
